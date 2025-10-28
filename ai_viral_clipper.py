@@ -145,7 +145,7 @@ def detect_highlights(client: OpenAI, transcript: str) -> List[Highlight]:
         ],
     )
 
-    if hasattr(response, "output_text"):
+    if hasattr(response, _text"):
         content = response.output_text
     elif response.output:
         content = response.output[0].content[0].text
