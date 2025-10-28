@@ -46,9 +46,8 @@ from yt_dlp import YoutubeDL
 
 
 FORMAT_INSTRUCTION = textwrap.dedent(
-    """
-    Output strictly JSON: {"highlights":[{"start":number,"end":number,"title":string,"reason":string}, ...]}
-    """
+   """Output strictly JSON: {"highlights":[{"start":number,"end":number,"title":string,"reason":string}, ...]}"""
+
 ).strip()
 
 
